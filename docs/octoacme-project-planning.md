@@ -27,8 +27,10 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 
 ## Sprint / Iteration Planning
 - Timebox planning to agreed sprint length
-- Pull items that meet DoD and have clear acceptance criteria
+- Pull items that meet the [Definition of Ready](octoacme-definition-of-ready-and-done.md)
 - Ensure team capacity is respected
+- Tech Lead reviews complex or high-risk items before they are committed
+- UX Designer confirms design assets are available for user-facing items
 
 ## Risk & Dependency Management
 - Capture in Risk Register:
@@ -39,5 +41,9 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Project kickoff held
 - [ ] Backlog prioritized and estimated
 - [ ] Release timeline and milestones agreed
-- [ ] Definition of Done documented
-- [ ] Initial test plan / QA approach drafted
+- [ ] [Definition of Ready and Done](octoacme-definition-of-ready-and-done.md) documented and shared with the team
+- [ ] Initial test plan / QA approach drafted (QA Lead)
+- [ ] Security considerations reviewed (Security Champion)
+- [ ] UX design backlog identified (UX Designer)
+- [ ] Risk register initialized in [Templates and Checklists](octoacme-templates-and-checklists.md)
+- [ ] Decision log created for the project

@@ -26,6 +26,8 @@ Delivery relies on a set of clearly defined **personas and roles**: the Project 
 | [Release and Deployment](octoacme-release-and-deployment.md) | Release types, deployment checklist, rollback playbook, and release notes template |
 | [Retrospective and Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) | Retrospective structure, action item tracking, and continuous improvement culture |
 | [Roles and Personas](octoacme-roles-and-personas.md) | Detailed responsibilities and communication patterns for each persona |
+| [Definition of Ready & Done](octoacme-definition-of-ready-and-done.md) | Standardized DoR/DoD criteria and role handoff points |
+| [Templates and Checklists](octoacme-templates-and-checklists.md) | Decision log, risk register, RACI-lite table, and handoff checklists |
 
 ---
 

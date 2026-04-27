@@ -10,10 +10,11 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 
 ## Pre-release requirements
 - All acceptance criteria met and PRs merged
-- Passing CI and security scans
+- Passing CI and security scans (Security Champion reviews any flagged findings)
 - Release notes drafted
-- Rollback / mitigation plan documented
-- Smoke tests prepared
+- Rollback / mitigation plan documented (DevOps/Release Engineer owns this)
+- Smoke tests prepared and signed off by QA Lead
+- [QA → Release Handoff checklist](octoacme-templates-and-checklists.md#qa--release-handoff) completed
 
 ## Deployment Checklist
 - [ ] Deployment window scheduled (if needed)
@@ -25,9 +26,11 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 
 ## Rollback & Incident Playbook
 - If a deployment fails or causes a critical issue:
-  - Trigger incident response and notify on-call
-  - Rollback to last known-good release if necessary
+  - Trigger incident response and notify on-call (DevOps/Release Engineer leads)
+  - Rollback to last known-good release if necessary (DevOps/Release Engineer executes)
+  - Notify Security Champion if the incident has a security dimension
   - Triage root cause and capture action items
+  - Record the decision to rollback in the [Decision Log](octoacme-templates-and-checklists.md#decision-log-template)
 
 ## Release Notes Template
 - Release name / number:

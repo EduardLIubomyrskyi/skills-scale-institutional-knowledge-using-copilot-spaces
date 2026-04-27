@@ -13,6 +13,8 @@ Maintain a simple table with:
 - Mitigation plan
 - Status
 
+Use the full [Risk Register Template](octoacme-templates-and-checklists.md#risk-register-template) in [Templates and Checklists](octoacme-templates-and-checklists.md) for the recommended format including a scoring guide.
+
 ## Risk Lifecycle
 - Identify: during planning and ongoing execution
 - Assess: estimate impact and likelihood
@@ -39,4 +41,5 @@ Incident Communication
 
 ## Escalation Paths
 - Team-level -> PM -> Product Lead -> Sponsor
-- For security incidents, follow the security incident runbook and notify Security on-call
+- For security incidents, follow the security incident runbook and notify Security on-call (coordinate with Security Champion)
+- Use the [Decision Log Template](octoacme-templates-and-checklists.md#decision-log-template) to record significant decisions and escalation outcomes
